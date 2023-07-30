@@ -1,7 +1,7 @@
 import React from 'react'
 
 interface Props {
-  render?: (x: number, y: number, ratio: number) => {}
+  render?: (x: number, y: number, ratio: number) => React.ReactNode
   posX: number
   posY: number
   style?: (x: number, y: number, ratio: number) => {}

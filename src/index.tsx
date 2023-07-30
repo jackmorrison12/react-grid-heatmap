@@ -18,7 +18,7 @@ export interface HeatMapGridProps {
   xLabelsStyle?: (index: number) => {}
   yLabelsStyle?: (index: number) => {}
   cellStyle?: (x: number, y: number, ratio: number) => {}
-  cellRender?: (x: number, y: number, value: number) => {}
+  cellRender?: (x: number, y: number, value: number) => React.ReactNode
   onClick?: (x: number, y: number) => void
 }
 
