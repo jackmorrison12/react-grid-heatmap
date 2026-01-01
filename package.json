@@ -1,6 +1,6 @@
 {
   "name": "react-grid-heatmap",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "A react component for heatmap visualisation in grid layout",
   "author": "arunghosh",
   "license": "MIT",
@@ -24,7 +24,7 @@
     "deploy": "gh-pages -d example/build"
   },
   "peerDependencies": {
-    "react": "^19.0.0"
+    "react": "^19.2.3"
   },
   "devDependencies": {
     "@testing-library/jest-dom": "^5.12.0",
