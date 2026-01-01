@@ -14,7 +14,7 @@ interface Props {
 
 const noop = (returnVal: any) => () => returnVal
 
-const Cell = ({
+const Cell: React.FC<Props> = ({
   render = noop(null),
   style = noop({}),
   ratio,
